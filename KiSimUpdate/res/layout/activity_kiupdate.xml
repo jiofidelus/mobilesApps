@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8aebf1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Kiupdate" >
+
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANKS FOR CHOOSING MY APPLICATION" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:padding="14dp" >
+
+        <Button
+            android:id="@+id/csimbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE" />
+
+        <Button
+            android:id="@+id/esimbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   SIM   " />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/dsimbtn"
+        android:layout_marginTop="48dp"
+        android:text="\tUPGRADE  AUTOMATICALLY" />
+
+    <Button
+        android:id="@+id/dsimbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="OTHER OPTIONS" />
+
+    <Button
+        android:id="@+id/ephonebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/abt"
+        android:layout_marginBottom="26dp"
+        android:text="ABOUT AUTHOR" />
+
+</RelativeLayout>
